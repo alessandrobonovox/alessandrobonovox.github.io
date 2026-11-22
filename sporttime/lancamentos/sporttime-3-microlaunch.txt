@@ -1,0 +1,33 @@
+ANTES: baixe e descompacte em Downloads as imagens:
+https://alessandrobonovox.github.io/sporttime/producthunt/sporttime-producthunt.zip
+(fica Downloads/sporttime-producthunt/ com thumbnail-240.png e gallery-1.png a gallery-5.png)
+
+COPIE TUDO ABAIXO DA LINHA E COLE NO CLAUDE DO CHROME
+------------------------------------------------------------
+
+Você vai cadastrar/publicar meu app SportTime usando a minha conta já logada neste Chrome.
+Regras:
+- Use exatamente os textos que eu passar. Se algum campo tiver limite menor, me mostre antes de encurtar.
+- Se não conseguir anexar um arquivo, pare e me diga qual escolher (estão em Downloads/sporttime-producthunt).
+- NÃO publique, NÃO envie e NÃO agende nada sem me mostrar o resumo e esperar meu "ok".
+- NÃO pague nada, não escolha plano pago nem "boost"/"featured" pago. Se o site só aceitar pago, pare e me avise.
+- Não vote, não comente em posts de outras pessoas e não peça votos.
+- Se o site pedir para colocar selo/badge no meu site em troca do cadastro, pare e me pergunte.
+Links:
+- App: https://play.google.com/store/apps/details?id=com.aistudio.sporttime.swvpxz
+- Site: https://alessandrobonovox.github.io
+
+SITE: MicroLaunch (https://microlaunch.net).
+1. Encontre "Submit" / "Launch your product" e escolha a opção GRÁTIS.
+2. Preencha:
+   - Name: SportTime
+   - URL: https://play.google.com/store/apps/details?id=com.aistudio.sporttime.swvpxz
+   - Tagline: Alarms before your team's games, in your time zone
+   - Description: SportTime shows every upcoming game of the teams you follow (soccer, NFL, NBA, F1 and more) in your time zone, rings an alarm before kickoff and sends the final score when it ends. Free on Android.
+   - Category/tags: Sports, Mobile, Android, Productivity (os mais próximos)
+   - Pricing: Free
+   - Logo: thumbnail-240.png
+   - Imagens: gallery-1.png a gallery-5.png (na ordem; se aceitar menos, use as primeiras)
+   - Maker: eu (meu perfil logado)
+3. Se pedir data de lançamento, me mostre as opções (prefiro a primeira data grátis disponível).
+4. Me mostre o resumo e envie só depois do meu ok. Me passe o link.
