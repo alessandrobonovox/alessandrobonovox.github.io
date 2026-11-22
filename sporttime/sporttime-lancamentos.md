@@ -1,0 +1,141 @@
+# SportTime – Show HN, Indie Hackers, MicroLaunch e Smol Launch (Claude no Chrome)
+
+## Antes de começar (você faz)
+
+1. Tenha conta (e esteja logado no Chrome) em cada site: news.ycombinator.com, indiehackers.com,
+   microlaunch.net e smollaunch.com.
+2. Baixe as imagens e descompacte em **Downloads**:
+   https://alessandrobonovox.github.io/sporttime/producthunt/sporttime-producthunt.zip
+   (fica `Downloads/sporttime-producthunt/`: `thumbnail-240.png` e `gallery-1.png` a `gallery-5.png`).
+3. Faça **um site por dia** (ordem sugerida abaixo). Cole o bloco "Regras" + o bloco do site do dia.
+
+Ordem sugerida: dia 1 Show HN + Indie Hackers (mesmo dia, de manhã nos EUA: 10h–12h de Brasília,
+de terça a quinta); dia 2 MicroLaunch; dia 3 Smol Launch.
+
+---
+
+## Regras (cole sempre junto com o bloco do site)
+
+```
+Você vai cadastrar/publicar meu app SportTime usando a minha conta já logada neste Chrome.
+Regras:
+- Use exatamente os textos que eu passar. Se algum campo tiver limite menor, me mostre antes de encurtar.
+- Se não conseguir anexar um arquivo, pare e me diga qual escolher (estão em Downloads/sporttime-producthunt).
+- NÃO publique, NÃO envie e NÃO agende nada sem me mostrar o resumo e esperar meu "ok".
+- NÃO pague nada, não escolha plano pago nem "boost"/"featured" pago. Se o site só aceitar pago, pare e me avise.
+- Não vote, não comente em posts de outras pessoas e não peça votos.
+- Se o site pedir para colocar selo/badge no meu site em troca do cadastro, pare e me pergunte.
+Links:
+- App: https://play.google.com/store/apps/details?id=com.aistudio.sporttime.swvpxz
+- Site: https://alessandrobonovox.github.io
+```
+
+---
+
+## 1. Hacker News – Show HN
+
+```
+SITE: Hacker News (Show HN). Antes, leia https://news.ycombinator.com/showhn.html e me diga se
+algo abaixo fere as regras.
+1. Abra https://news.ycombinator.com/submit
+2. title: Show HN: SportTime – Alarms before your team's games, in your local time
+3. url: https://play.google.com/store/apps/details?id=com.aistudio.sporttime.swvpxz
+4. text: deixe vazio.
+5. Me mostre e, depois do meu ok, clique em "submit".
+6. Logo depois, abra o post e publique este comentário (com meu ok):
+
+Hi HN! I built SportTime because I kept missing games that happen in other time zones.
+
+It's a native Android app (Kotlin + Jetpack Compose). You pick sports and favorite teams, and it shows every upcoming game in your phone's time zone and rings an alarm before kickoff (one or several reminders per game).
+
+A few technical bits:
+- A small Python server pulls public scoreboards a few times a day and publishes one compressed bundle per sport to Firestore, so the app downloads a few KB instead of calling an API per game.
+- Reminders use AlarmManager.setAlarmClock, so they survive Doze and reboots, with an optional lock-screen card.
+- Final scores are pushed through per-game FCM topics, so they arrive even with the app closed.
+- Soccer, NFL, NBA, F1, MLB, NHL, MMA, rugby; 6 languages; no account.
+
+It's free and ad-supported. I'd love feedback, especially on alarm reliability on different phone brands (Xiaomi, Samsung…).
+
+7. Me passe o link do post.
+```
+
+## 2. Indie Hackers
+
+```
+SITE: Indie Hackers.
+1. Crie um post novo (botão "New post" / "Write"). Se pedir grupo, escolha o mais próximo de
+   "Show IH", "Launches" ou "Product launch".
+2. Título: I launched my first Android app solo: alarms for your team's games
+3. Texto:
+
+Hey IH! 👋
+
+I just launched SportTime, a free Android app that rings an alarm before your favorite teams' games and shows every match in your own time zone.
+
+**Why I built it**
+I kept missing games that were played in other time zones (Premier League, NFL, F1…). Calendar apps didn't help: the times were wrong or I had to add each game by hand.
+
+**What it does**
+- Pick your sports and favorite teams/leagues
+- Every upcoming game in your local time
+- One or more alarms per game (1 day before → kickoff), even on the lock screen
+- Final score notification when the game ends
+- Where to watch, home-screen widget, 6 languages
+
+**How it's built**
+Kotlin + Jetpack Compose on Android, a small Python server that syncs schedules to Firebase, and FCM for final scores. Monetized with AdMob.
+
+**Where I am**
+Just went live on Google Play and I'm now working on getting the first users. I'd really appreciate feedback on the app and the store page — and tips on reaching sports fans are very welcome.
+
+👉 https://play.google.com/store/apps/details?id=com.aistudio.sporttime.swvpxz
+
+4. Se der para adicionar imagem, anexe gallery-1.png.
+5. Se o site tiver área de "Products", cadastre também o SportTime lá com:
+   Name: SportTime / Tagline: Alarms before your team's games, in your time zone /
+   Website: link do app / Logo: thumbnail-240.png
+6. Me mostre tudo e só publique depois do meu ok. Me passe os links.
+```
+
+## 3. MicroLaunch
+
+```
+SITE: MicroLaunch (https://microlaunch.net).
+1. Encontre "Submit" / "Launch your product" e escolha a opção GRÁTIS.
+2. Preencha:
+   - Name: SportTime
+   - URL: https://play.google.com/store/apps/details?id=com.aistudio.sporttime.swvpxz
+   - Tagline: Alarms before your team's games, in your time zone
+   - Description: SportTime shows every upcoming game of the teams you follow (soccer, NFL, NBA, F1 and more) in your time zone, rings an alarm before kickoff and sends the final score when it ends. Free on Android.
+   - Category/tags: Sports, Mobile, Android, Productivity (os mais próximos)
+   - Pricing: Free
+   - Logo: thumbnail-240.png
+   - Imagens: gallery-1.png a gallery-5.png (na ordem; se aceitar menos, use as primeiras)
+   - Maker: eu (meu perfil logado)
+3. Se pedir data de lançamento, me mostre as opções (prefiro a primeira data grátis disponível).
+4. Me mostre o resumo e envie só depois do meu ok. Me passe o link.
+```
+
+## 4. Smol Launch
+
+```
+SITE: Smol Launch (https://smollaunch.com).
+1. Encontre "Submit" / "Launch" e escolha a opção GRÁTIS.
+2. Preencha com:
+   - Name: SportTime
+   - URL: https://play.google.com/store/apps/details?id=com.aistudio.sporttime.swvpxz
+   - Tagline: Alarms before your team's games, in your time zone
+   - Description: SportTime shows every upcoming game of the teams you follow (soccer, NFL, NBA, F1 and more) in your time zone, rings an alarm before kickoff and sends the final score when it ends. Free on Android.
+   - Category/tags: Sports, Android, Mobile, Productivity
+   - Logo: thumbnail-240.png
+   - Imagem/screenshot: gallery-1.png (e as outras, se aceitar)
+3. Se pedir data, me mostre as opções.
+4. Me mostre o resumo e envie só depois do meu ok. Me passe o link.
+```
+
+## Dicas
+
+- Show HN: fique por perto nas primeiras 2–3 horas respondendo os comentários (em inglês, com
+  calma e sem se defender). Não peça votos a amigos: o HN penaliza.
+- Indie Hackers: responda cada comentário; é ali que surgem as melhores dicas.
+- Diretórios (MicroLaunch, Smol Launch): no dia do lançamento, compartilhe o link deles nas suas redes.
